@@ -45,27 +45,27 @@ h3 {
 }
 
 .img1 {
-    background-image: url(sunrise.jpg);
+    background-image: url(images/sunrise.jpg);
 }
 
 .img2 {
-    background-image: url(spring.jpg);
+    background-image: url(images/spring.jpg);
 }
 
 .img3{
-    background-image: url(summer.jpg);
+    background-image: url(images/summer.jpg);
 }
 
 .img4 {
-    background-image: url(autumn.jpg);
+    background-image: url(images/autumn.jpg);
 }
 
 .img5 {
-    background-image: url(winter.jpg);
+    background-image: url(images/winter.jpg);
 }
 
 .img6 {
-    background-image: url(sunset.jpg);
+    background-image: url(images/sunset.jpg);
 }
 
 @media (max-width: 500px) {
