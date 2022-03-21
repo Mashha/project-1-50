@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#container {
+    width: 90vw;
+    display: flex;
+    margin: 50px auto;
+}
+
+.image{
+    height: 80vh;
+    border-radius: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow:  4px 3px 19px 1px rgba(0,0,0,0.73);
+    cursor: pointer;
+    margin: 0 10px;
+    position: relative;
+    flex: 0.5;
+    transition: flex 0.6s ease-in-out;
+}
+
+h3 {
+    color: #ffff;
+    font-size: 18px;
+    padding: 20px;
+    bottom: 20px;
+    position: absolute;
+    left: 30px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out 0.4s;
+}
+
+.image.active {
+    flex: 5;
+}
+
+.image.active h3 {
+    opacity: 1;
+}
+
+.img1 {
+    background-image: url(sunrise.jpg);
+}
+
+.img2 {
+    background-image: url(spring.jpg);
+}
+
+.img3{
+    background-image: url(summer.jpg);
+}
+
+.img4 {
+    background-image: url(autumn.jpg);
+}
+
+.img5 {
+    background-image: url(winter.jpg);
+}
+
+.img6 {
+    background-image: url(sunset.jpg);
+}
+
+@media (max-width: 500px) {
+    #container {
+        width: 100vw;
+    }
+}
